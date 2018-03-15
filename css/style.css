@@ -1,0 +1,131 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#topbackgroundimg {
+  zoom: 40%;
+}
+
+#middlebackgroundimg, #bottombackgroundimg {
+  zoom: 30%;
+}
+
+#githubbtn, #linkedinbtn, #facebookbtn, #twitterbtn {
+  background-color: white;
+}
+
+#githubicon, #linkedinicon, #facebookicon, #twittericon {
+  color: #424242;
+}
+
+#bottomsocicongrp {
+  margin: 21px 0px;
+  text-shadow: 2px 2px lightgrey;
+}
+
+#parallax1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px darkslategray;
+  font-size: 35px;
+  font-weight: 350;
+}
+
+#nametop {
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px darkslategray;
+  font-size: 100px;
+  font-weight: 300;
+}
+
+#jobtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px darkslategray;
+  font-weight: 350;
+  font-size: 35px;
+  margin: 3px 0px 22px 0px;
+}
+
+#aboutme {
+  margin: 70px 0px 0px 0px;
+}
+
+#parallax2topic {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px darkslategray;
+  font-size: 50px;
+  margin: -78px 0px;
+  font-weight: 500;
+}
+#parallax2body {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px darkslategray;
+  font-size: 35px;
+  font-weight: 350;
+}
+
+#topsocicongrp {
+  text-shadow: 2px 2px lightgrey;
+}
+#aboutmetitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+
+#aboutmebody {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
